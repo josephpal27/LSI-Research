@@ -18,6 +18,12 @@
     background: #676767;
     border-radius: 7px;
   }
+
+  /* --- All Section Colored Same */
+  section{
+    background-color: #f9f9f9;
+  }
+
   
   /* Header Styles Starts Here */
   header {
@@ -75,3 +81,135 @@
   } */
 
   /* Nav Styles Ends Here */
+
+
+  /* Top Image Section Starts Here */
+  .top-image{
+    overflow: hidden;
+    position: relative;
+  }
+  .top-image img{
+    width: 100%;
+  }
+  .top-image h2{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #fff;
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  /* Top Image Section Ends Here */
+
+
+  /* Research Initiatives Section Starts Here */
+  .research-initiatives{
+    padding: 6rem 0 3rem 0;
+    overflow: hidden;
+  }
+  .research-initiatives h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+    /* color: #ec9122; */
+    color: #000;
+  }
+  .research-initiatives p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .research-initiatives .btn-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .research-initiatives .btn-row button{
+    border: 1px solid #ec9122;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  .research-initiatives .btn-row button:hover{
+    border: 1px solid #fff;
+    background-color: #ec9122;
+    color: #fff;
+  }
+  .research-initiatives .btn-row a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.85rem;
+  }
+  /* Research Initiatives Section Ends Here */
+
+
+  /* Automobile Section Starts Here */
+  .automobile{
+    padding: 1rem 0;
+  }
+  .my-row h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    /* color: #ec9122; */
+    color: #000;
+  }
+  .my-row .card-row{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-around; */
+    gap: 2%;
+    width: 100%;
+    padding: 3rem 0 4rem 0;
+  }
+  .my-row .card-row .card{
+    background-color: #fff;
+    width: 23%;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .my-row .card-row .card .img-box img{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .my-row .card-row .card .desc{
+    /* background-color: red; */
+    min-height: 130px;
+    padding-top: 1.8rem;
+  }
+  .my-row .card-row .card .desc a{
+    text-decoration: none;
+    color: #ec9122;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    /* font-weight: 500; */
+    transition: all 0.3s ease;
+  }
+  .my-row .card-row .card .desc a:hover{
+    color: rgb(78, 78, 78)
+  }
+
+  .my-row #card-row-1{
+    padding: 3rem 0.5rem 1rem 0.5rem;
+  }
+
+  /* Automobile Section Ends Here */
+
+  /* Bank & Finance Section Starts Here */
+  .bank-finance{
+    padding: 3rem 0 1rem 0;
+  }
+  /* Bank & Finance Section Ends Here */
+
+  /* .coffee-table{
+    padding: 1rem 0;
+  } */
+
+  #economy{
+    padding: 1rem 0;
+  }
